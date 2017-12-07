@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* end css reset */
+
+html {
+    background-color: #233237;
+    min-height: 100%;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.active {
+    color: #f0dbcd!important;
+}
+
+.time-control {
+    height: 15em;
+    width: 100%;
+    font-size: 1em;
+}
+.work {
+    float: left;
+    display: inline-block;
+    margin-left: 5em;
+    margin-top: 5em;
+}
+
+.time {
+    text-align: center;
+    height: 100%;
+    width: 20%;
+    font-size: 2em;
+    color: #9099a2;
+}
+
+.break {
+    float: right;
+    display: inline-block;
+    margin-right: 5em;
+    margin-top: 5em;
+}
+
+.timer {
+    height: 35em;
+    width: 35em;
+    border-radius: 100%;
+    position: absolute;
+    background: linear-gradient(180deg, #9099a2, #9099a2 100%, #984b43, #984b43 0%);
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: table;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    font-size: 5rem;
+    color: #9099a2;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    margin-bottom: 1%;
+    font-family: 'Pacifico', cursive !important;
+}
+
+.work-val {
+}
+
+.timer-val {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2.5em;
+    line-height: 5.6em;
+    color: #233237;
+}
+
+.input {
+    cursor: pointer;
+}
